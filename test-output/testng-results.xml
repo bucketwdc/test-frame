@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1433" started-at="2018-09-13T14:37:09Z" finished-at="2018-09-13T14:37:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1433" started-at="2018-09-13T14:37:09Z" finished-at="2018-09-13T14:37:10Z">
+      <class name="com.test.frame.test.spring.TestDemo_NormalTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.test.frame.test.spring.TestDemo_NormalTest@7b69c6ba]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="13" started-at="2018-09-13T22:37:09Z" finished-at="2018-09-13T22:37:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.test.frame.test.spring.TestDemo_NormalTest@7b69c6ba]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1296" started-at="2018-09-13T22:37:09Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2018-09-13T22:37:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.test.frame.test.spring.TestDemo_NormalTest@7b69c6ba]" name="init" is-config="true" duration-ms="27" started-at="2018-09-13T22:37:10Z" finished-at="2018-09-13T22:37:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.test.frame.test.spring.TestDemo_NormalTest@7b69c6ba]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="30" started-at="2018-09-13T22:37:10Z" finished-at="2018-09-13T22:37:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.frame.test.spring.TestDemo_NormalTest.test_Normal(java.lang.String,int,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="test_Normal(java.lang.String, int, java.lang.String)[pri:0, instance:com.test.frame.test.spring.TestDemo_NormalTest@7b69c6ba]" name="test_Normal" duration-ms="12" started-at="2018-09-13T22:37:10Z" data-provider="oCsvDataProviderConfig" finished-at="2018-09-13T22:37:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[�����Ƕ�]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[23423]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Normal -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.test.frame.test.spring.TestDemo_NormalTest@7b69c6ba]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2018-09-13T22:37:10Z" finished-at="2018-09-13T22:37:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.frame.test.spring.TestDemo_NormalTest.test_Normal(java.lang.String,int,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.test.frame.test.spring.TestDemo_NormalTest@7b69c6ba]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2018-09-13T22:37:10Z" finished-at="2018-09-13T22:37:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.test.frame.test.spring.TestDemo_NormalTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

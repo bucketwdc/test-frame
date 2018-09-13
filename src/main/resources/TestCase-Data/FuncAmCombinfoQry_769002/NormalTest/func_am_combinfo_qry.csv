@@ -1,0 +1,2 @@
+caseId,desc,id,subId,operator_no,password,user_token,fund_account,combine_id
+TC_001,查询用户有权限的单元信息。注意：返回报文不能超过10M，如果记录过多的话，必须加上查询条件。查询tcombin表中的组合信息。,769000,769902,10001077,1,,,
